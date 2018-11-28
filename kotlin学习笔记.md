@@ -36,12 +36,11 @@
 	    kapt "com.jakewharton:butterknife-compiler:$butterknife_version"
 	}
 
-> **java:**
-> 在 Java 中使用注解对将变量与之对应的 view 进行绑定：
+> **java:** *在 Java 中使用注解对将变量与之对应的 view 进行绑定： *
 
 
 	@BindView(R2.id.title) TextView title;
-> **kotlin:**在 Kotlin 中使用属性而不是直接使用变量。 对属性使用注解:
+> **kotlin:** *在 Kotlin 中使用属性而不是直接使用变量。 对属性使用注解：*
 
 
 	@BindView(R2.id.title)
