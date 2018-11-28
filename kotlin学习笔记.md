@@ -1,15 +1,15 @@
-#kotlin学习笔记
+# kotlin学习笔记
 
-###kotlin简介
+### kotlin简介
   Kotlin是一门静态语言，支持多种平台，包括移动端、服务端以及浏览器端，此外，Kotlin还是一门融合了面向对象与函数式编程的语言，支持泛型、安全的空判断，并且Kotlin与Java可以做到完全的交互。
-###kotlin特点
+### kotlin特点
  - 代码简洁，语句结尾没有分号
  - 编译期非空判断，有效防止空指针异常
  - 支持lambda表达式
  - 完美支持java语言、java库，同一个项目可以使用java和kotlin两种语言
  - 可以使用任何java IDE或者使用命令进行构建
  
-###View Binding
+### View Binding
  > 省去了大量findViewById()操作，
  
 	import kotlinx.android.synthetic.main.activity_main.*
@@ -24,7 +24,7 @@
 	}
  	// textView即在xml中声明的TextView的id
 
-###在kotlin中使用ButterKinfe
+### 在kotlin中使用ButterKinfe
 > 在 Kotlin 中使用 ButterKnife 与 Java 中完全一致。 在 Gradle 依赖中添加 kotlin-kapt 插件，并使用 kapt 替代 annotationProcessor。
 
 
